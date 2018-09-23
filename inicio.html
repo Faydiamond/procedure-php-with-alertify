@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/alertify.css">
+    <title></title>
+</head>
+
+<body><br>
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-sm-4">
+          </div>
+          <div class="col-sm-4">
+              <br>
+              <img src="img/msn.jpeg" class="img-responsive" alt="">
+          </div>
+          <div class="col-sm-4">
+          </div>
+      </div>
+  </div><br>
+    <form action="php/gett.php" method="post">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="Name" name="Name" placeholder="Nombre 1">
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="Name1" name="Name1" placeholder="Nombre 2">
+                </div>
+                <div class="col-sm-2"></div>
+            </div><br>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="LaName" name="LaName" placeholder="Apellido 1">
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="LaName1" name="LaName1" placeholder="Apellido 2">
+                </div>
+                <div class="col-sm-2"></div>
+            </div><br>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" placeholder="Nombre de usuario" name="Usuario" id="Usuario">
+                </div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" placeholder="Correo electronico" name="Correo" id="Correo">
+                </div>
+                <div class="col-sm-2"></div>
+            </div><br>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="Age" name="Age" placeholder="Edad">
+                </div>
+                <div class="col-sm-4">
+                    <select class="selectpicker" id="Gender" name="Gender">
+                    <option selected value="DEFAULT">Genero</option>
+                    <option value='Femenino'>Femenino</option>
+                    <option value='Masculino'>Masculino</option>
+                </select>
+                </div>
+                <div class="col-sm-2"></div>
+            </div><br>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8">
+                    <button type="button" id="Sendd" name="Sendd" class="btn btn-primary btn-lg btn-block">Enviar</button>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+    </form><br>
+    <div class="container-fluid" id="Res">
+      <div class="row">
+          <div class="col-sm-12">
+
+          </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/alertify.min.js" ></script>
+    <script src="js/Sendusers.js"></script>
+</body>
+
+</html>
